@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body{
+	background: #f2f6e9;
+	overflow-x: hidden;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'myFont', Arial, Helvetica, sans-serif;
+  opacity: 0.5; 
+}
+
+.feature-title{
+	font-family: 'myFont', Arial, Helvetica, sans-serif;
+	position:relative;
+	left: -70px;
+}
+
